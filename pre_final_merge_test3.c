@@ -1243,10 +1243,12 @@ void frontend()
     printf("\n"); 
     rectangle(rows, columns); 
     printf("\n"); 
-    printf("APPROVED BY:   \t\t\t\t\t\t\t\t\t                                             SUBMITTED BY:\n" );
-    printf("Mr. Amrendra Tripathi [MENTOR]  \t\t\t\t\t\t                                             Shubham Bhatnagar [151]\n" );
-    printf("Dr. Deepshikha Bhargava [HOD]    \t\t\t\t\t\t                                             Yashvardhan Singh Nathawat [192]\n" );
-    printf("  \t\t\t\t\t\t\t\t\t\t                                             Harsh Upparwal [198]" );
+    printf("\t\t\t\t\t\t\t            Approved by: \n");
+    printf("\n Mr. Amrendra Tripathi  \t\t\t\t\t\t                                                   Dr. Deepshikha Bhargava\n" );
+    printf("       [MENTOR]  \t\t\t\t\t\t\t\t                                                     [HOD]\n" );
+    printf("\t\t\t\t\t\t\t            Submitted by: \n");
+    printf("\n Shubham Bhatnagar [151] \t\t                   Yashvardhan Singh Nathawat [192]                                 Harsh Upparwal [198] \n" );
+
 	height(2);
 	printf("Press 1 to continue ");
 	scanf("%d",&i);
